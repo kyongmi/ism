@@ -26,7 +26,7 @@ body{
     color: #4d4d4d;
     font-size: 14px;
     margin: 0;
-    background-color: #ECCFD3;
+    background-color: #EFDDDC;
 }
 a {
     font-family: "Zen Kaku Gothic New", sans-serif;
@@ -38,6 +38,12 @@ a {
     width: 40%;
     text-decoration-color: none;  /*リンクの色を消す*/
 }
+
+a:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
 img {
     object-fit: fill;
     object-position: center center;
@@ -90,40 +96,66 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.area2 img {
-    width: 40%;
-}
-
-.area2 a img {
-    width: 100%;
+    background-color: #F4EEE8;
 }
 
 .area3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f0f0f0;
 }
 
-.area3 img {
-    width: 40%;
-}
-
-.area4 img {
-    width: 40%;
+.area3 video {
+    border: solid 5px #4d4d4d;
+    border-radius: 30px;
+    margin: 30px 0 50px 0;
 }
 
 .area4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #ffff;
+    background-color: #F4EEE8;
 }
 
-.area5 {
-    margin-top: -160px;
+.area6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4EEE8;
+}
+
+.area8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4EEE8;
+}
+
+.area10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4EEE8;
+}
+
+.area12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #585858;
+}
+
+.ga {
+    width: 40%;
+}
+
+.area2 a .ga {
+    width: 100%;
+}
+
+.last {
+    background-color: #EFDDDC;
 }
 
 footer {
@@ -165,64 +197,78 @@ footer p {
         width: 100%;
     }
 
-    .area2 img {
+    .ga {
         width: 100%;
     }
 
-    .area3 img {
-        width: 100%;
-    }
-
-    .area4 img {
-        width: 100%;
-    }
-
-    .area5 {
-        margin-top: 0px;
-    }
 
 }
     </style>
+
 </head>
 
 <body>
 
     <div class="top_ga">
-        <img class="pc" src="images/Group41.svg" alt="top画像">
-        <img class="sp" src="images/Group36.svg" alt="top画像">
+        <img class="pc" src="images/20250812_1247.png" alt="top画像">
+        <img class="sp" src="images/20250812_1250.png" alt="top画像">
     </div>
 
     
 
     <div class="area2" id="area2">
 
-        <a href="https://beauty.hotpepper.jp/kr/slnH000624847/coupon/">
-            <img src="images/Group38.svg" alt="CTAボタン">
-        </a>
-
-        <img src="images/Group35.svg" alt="サブスク説明＆ビフォーアフター">
-
-        <a href="https://beauty.hotpepper.jp/kr/slnH000624847/coupon/">
-            <img src="images/Group38.svg" alt="CTAボタン">
-        </a>
-
-        <img src="images/Group37.svg" alt="料金プラン＆口コミ＆流れ＆よくある質問">
-
-        <a href="https://beauty.hotpepper.jp/kr/slnH000624847/coupon/">
-            <img src="images/Group40.svg" alt="CTAボタン">
+        <a href="https://beauty.hotpepper.jp/kr/slnH000624847/coupon/" role="button" class="cta-button" >
+            <img class="ga" src="images/20250812_1253.png" alt="予約はこちら">
         </a>
 
     </div>
+
+    
+    <div class="area5">
+        <img class="ga" src="images/20250812_1256.png" alt="">
+    </div>
+
+    <div class="area4">
+        <img class="ga" src="images/20250812_1257.png" alt="">
+    </div>
+
+    <div class="area5">
+        <img class="ga" src="images/20250812_1258.png" alt="">
+    </div>
+
+    <div class="area4">
+        <img class="ga" src="images/20250812_1259.png" alt="">
+    </div>
+
+
+
+    
+
+    <div class="area2 last" id="area2">
+
+        <a href="https://beauty.hotpepper.jp/kr/slnH000624847/coupon/" role="button" class="cta-button">
+            <img class="ga" src="images/20250812_1253.png" alt="予約はこちら">
+        </a>
+
+    </div>
+
+    <div class="area12">
+        <img class="ga" src="images/20250611_1400.png" alt="">
+    </div>
+
 
 
     
 
 
-    <!--FOOTER---------------------------------------->
+    <!--FOOTER----------------
 
     <footer>
         <p>&copy;Skinholic Ebisu</p>
     </footer>
+
+    ------------------------>
 
     
 
